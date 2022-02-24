@@ -1,0 +1,14 @@
+
+START - automation started - Thu Feb 24 2022 10:03:31 GMT-0300 (-03)
+
+LIVE MODE - type done to quit
+ [RPA][STARTED]
+[RPA][0] - listening for inputs
+[RPA][1] - https://shopper.com.br/lojas/
+[RPA][1] - listening for inputs
+[RPA][2] - exist_result = exist('//*[@id="header"]/div/div/ul[1]/li[2]/a').toString()
+[RPA][2] - listening for inputs
+[RPA][3] - dump exist_result to rpa_python.txt
+[RPA][3] - listening for inputs
+[RPA][4] - click //*[@id="header"]/div/div/ul[1]/li[2]/a
+[RPA][4] - listening for inputs
