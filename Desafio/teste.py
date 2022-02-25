@@ -15,9 +15,13 @@ senha = [""]
 
 #clicar no campo email
 #r.click('/html/body/div[3]/div/div/div/div/div[2]/div/div/div[1]/div[1]/form/div/div[1]/input')
-input = navegador.find_element_by_xpath('/html/body/div[3]/div/div/div/div/div[2]/div/div/div[1]/div[1]/form/div/div[1]/input')
-input.clear()
-input.send_keys(login)
+#input = navegador.find_element_by_xpath('/html/body/div[3]/div/div/div/div/div[2]/div/div/div[1]/div[1]/form/div/div[1]/input')
+#input.clear()
+#input.send_keys(login)
+#input_place = navegador.find_element_by_xpath('/html/body/div[3]/div/div/div/div/div[2]/div/div/div[1]/div[1]/form/div/div[1]/input')
+input_place = navegador.find_element_by_name('email')
+sleep(2)
+input_place.send_keys("alexramon@gmail.com")
 p.sleep(1)
 
 
